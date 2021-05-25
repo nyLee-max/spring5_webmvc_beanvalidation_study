@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = {"spring5_webmvc_beanvalidation_study.spring"})
 public class MemberConfig {
 	@Bean(destroyMethod = "close")
 	public DataSource dataSource() {
